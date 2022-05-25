@@ -21,3 +21,12 @@ Route::get('/', function () {
 Route::get('/header', function () {
     return view('masterlayout.canhsat.header');
 })->name("header");
+
+
+Route::get('/headerQTV', function () {
+    return view('masterlayout.quanTriVien.headerQTV');
+})->name("headerQTV");
+
+Route::get('/bodyQTV', function () {
+    return view('masterlayout.quanTriVien.bodyQTV');
+})->name("bodyQTV");
