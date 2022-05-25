@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/header', function () {
-    return view('masterlayout.canhsat.header');
+Route::get('/page/canhsat/themvipham', function () {
+    return view('page.canhsat.themvipham');
 })->name("header");
