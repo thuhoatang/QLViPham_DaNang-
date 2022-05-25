@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="boostrap-5/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="boostrap-5/css/bootstrap-grid.css">
     <link rel="stylesheet" href="style/style_admin.css">
-    <link rel="stylesheet" href="../style/style_thongke.css">
+   
     <link rel="stylesheet" href="boostrap-5/css/styles-admin.css">
     <link rel="stylesheet" href="font/google-font.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
