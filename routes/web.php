@@ -17,9 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+Route::get('/page/canhsat/themvipham', function () {
+    return view('page.canhsat.themvipham');
+
 Route::get('trang-thai-nop-phat', function(){
     return view('masterlayout.canhsat.ttnopphat');
 });
 Route::get('/header', function () {
     return view('masterlayout.canhsat.header');
+
 })->name("header");
