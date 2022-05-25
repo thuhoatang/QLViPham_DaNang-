@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +16,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
-    {{-- iquery --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
@@ -114,14 +111,64 @@
             </nav>
         </div>
 
-        {{-- phần ruột --}}
-
         <div id="layoutSidenav_content">
             <main>
-                @yield('themvipham')
-            </main>
-            <main>
-                @yield('trangthainp')
+                <div id="main-content">
+                    <div id="content-main">
+                        <div class="heading">
+                            <h2>Quản lý nộp phạt</h2>
+                        </div>
+                        <!--  -->
+
+                        <div class="row">
+                            <div class="col">
+                                <input style="width: 300px; margin: 0 auto;" type="text" class="form-control" id="search" placeholder="Tìm kiếm">
+                            </div>
+                            <div class="col" style="width: 300px;">
+                                <select class="form-select" style="width: 300px;" aria-label="Default select example">
+                                    <option selected>Chọn khu vực</option>
+                                    <option value="1">Hải Châu</option>
+                                    <option value="2">Cẩm Lệ</option>
+                                    <option value="3">Liên Chiễu</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="table-content">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">STT</th>
+                                        <th scope="col">Biển số</th>
+                                        <th scope="col">Thời gian</th>
+                                        <th scope="col">Địa điểm</th>
+                                        <th scope="col">Trạng thái</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td scope="row">1</td>
+                                        <td>76C1 99999</td>
+                                        <td>24/04/2022 14:00</td>
+                                        <td>Hải Châu</td>
+                                        <td><button type="button" class="btn btn-outline-success">Đã nộp</button></td>
+                                        <td><a href="#" class="link-success">Chi tiết</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td scope="row">1</td>
+                                        <td>76C1 99999</td> 
+                                        <td>24/04/2022 14:00</td>
+                                        <td>Hải Châu</td>
+                                        <td><button type="button" class="btn btn-outline-warning">Chưa nộp</button></td>
+                                        <td><a href="#" class="link-success">Chi tiết</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </main>
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
@@ -140,8 +187,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-
-     
      <script type="text/javascript" src="boostrap-5/js/bootstrap.bundle.js"></script>
      <script type="text/javascript" src="boostrap-5/js/bootstrap.bundle.min.jsx"></script>
 </body>

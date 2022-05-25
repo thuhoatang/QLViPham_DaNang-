@@ -1,9 +1,5 @@
 @extends('masterlayout.canhsat.header')
 @section('themvipham')
-    
-<link rel="stylesheet" href="style/themvipham.css">
-
-  
         <div class="container-fluid px-4 mt-2">
             <p class="mt-4 text-dark">Quản lý vi phạm/ Thêm vi phạm</p>
 
