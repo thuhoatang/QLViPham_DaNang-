@@ -121,7 +121,10 @@
             <div class="search_vipham">
                 <form action="">
                     <p>Tìm tên vi phạm</p>
-                    <input type="text" name="vipham" id="vipham" placeholder="Tìm kiếm">
+                    <div class="search-wrapper">
+                        <span class="las la-search"></span>
+                        <input type="search" name="vipham" id="vipham" placeholder="Tìm kiếm">
+                    </div>
                 </form>
                 <form action="">
                     <p>Sắp xếp số lượng vi phạm</p>
@@ -190,8 +193,11 @@
         <div class="result_search">
             <h2 style="padding-left: 60px; font-size:1.7rem;" >Kết quả tìm kiếm</h2>
             <div class="result_soluong_quan">
-                <div class="quan_soluongvp">
+                <div class="quan_soluongvp" style="display: flex;">
                     <h3>Quận Hải Châu: <span>30 vi phạm</span></h3>
+                    <button style="float:right; margin-left:40rem; background:sandybrown; border-radius:15px; border: var(--boder) solid 0.7px;
+                        border-bottom: var(--boder) solid 3px; padding:8px;">Xem tất cả  <span class="las la-arrow-right"></span>
+                    </button>
                 </div>
                 <table class="table_vipham"  cellspacing=0 cellpading=0>
                     <tr>
@@ -222,7 +228,7 @@
             <div class="thongke_noibat">
                 <h2>Các quận vi phạm nhiều nhất</h2>
                 <div class="quan_vp">
-                    <div class="quan" id="quan">
+                    <div class="quan" id="quan" style="background-color: sandybrown;">
                         <h3>Quận Cẩm Lệ</h3>
                         <p>450</p>
                     </div>
@@ -279,6 +285,120 @@
                         <td>1</td>
                         <td>1230</td>
                         <td>Hải Châu</td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <!-- thống kê theo tháng -->
+            <div class="thongke_thang" id="thongke_thang">
+                <h2>Thống kê theo tháng</h2>
+                <div class="month">
+                      
+                    <a class="nav-link collapsed text-dark" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts04" aria-expanded="false" aria-controls="collapseLayouts04">
+                        <div class="sb-nav-link-icon"></div>
+                        Tháng 5
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="collapseLayouts04" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link text-dark" href="">Tháng 1</a>
+                            <a class="nav-link text-dark" href="">Tháng 2</a>
+                            <a class="nav-link text-dark" href="">Tháng 3</a>
+                            <a class="nav-link text-dark" href="">Tháng 4</a>
+                            <a class="nav-link text-dark" href="">Tháng 5</a>
+                            <a class="nav-link text-dark" href="">Tháng 6</a>
+                            <a class="nav-link text-dark" href="">Tháng 7</a>
+                            <a class="nav-link text-dark" href="">Tháng 8</a>
+                            <a class="nav-link text-dark" href="">Tháng 9</a>
+                            <a class="nav-link text-dark" href="">Tháng 10</a>
+                            <a class="nav-link text-dark" href="">Tháng 11</a>
+                            <a class="nav-link text-dark" href="">Tháng 12</a>
+
+                        </nav>
+                    </div>
+                </div>
+                <table class="table_vipham"  cellspacing=0 cellpading=0>
+                    <tr>
+                        <th >Tuần</th>
+                        <th >Số lượng</th>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1270</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>1270</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>1270</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>1270</td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="thongke_vp_phobien" id="thongke_vp_phobien">
+                <h2>Thống kê theo tháng</h2>
+                <div class="month">
+                      
+                    <a class="nav-link collapsed text-dark" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts05" aria-expanded="false" aria-controls="collapseLayouts05">
+                        <div class="sb-nav-link-icon"></div>
+                        Tháng 5
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="collapseLayouts05" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <a class="nav-link text-dark" href="">Tháng 1</a>
+                            <a class="nav-link text-dark" href="">Tháng 2</a>
+                            <a class="nav-link text-dark" href="">Tháng 3</a>
+                            <a class="nav-link text-dark" href="">Tháng 4</a>
+                            <a class="nav-link text-dark" href="">Tháng 5</a>
+                            <a class="nav-link text-dark" href="">Tháng 6</a>
+                            <a class="nav-link text-dark" href="">Tháng 7</a>
+                            <a class="nav-link text-dark" href="">Tháng 8</a>
+                            <a class="nav-link text-dark" href="">Tháng 9</a>
+                            <a class="nav-link text-dark" href="">Tháng 10</a>
+                            <a class="nav-link text-dark" href="">Tháng 11</a>
+                            <a class="nav-link text-dark" href="">Tháng 12</a>
+
+                        </nav>
+                    </div>
+                </div>
+                <table class="table_vipham"  cellspacing=0 cellpading=0>
+                    <tr>
+                        <th >Tên vi phạm</th>
+                        <th >Loại vi phạm</th>
+                        <th >Số lượng</th>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>Vượt đèn đỏ</td>
+                        <td>1</td>
+                        <td>1230</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Vượt đèn đỏ</td>
+                        <td>1</td>
+                        <td>1230</td>
+                    </tr>
+                    <tr>
+                        <td>Vượt đèn đỏ</td>
+                        <td>1</td>
+                        <td>1230</td>
+                    </tr>
+                    <tr>
+                        <td>Vượt đèn đỏ</td>
+                        <td>1</td>
+                        <td>1230</td>
                     </tr>
                     
                 </table>
