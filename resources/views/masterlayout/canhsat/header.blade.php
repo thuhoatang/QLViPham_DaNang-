@@ -12,10 +12,11 @@
     <!-- boostrap -->
     <link rel="stylesheet" href="boostrap-5/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="boostrap-5/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="style/style_admin.css">
+    <link rel="stylesheet" href="style/style_admin_2.css">
     <link rel="stylesheet" href="boostrap-5/css/styles-admin.css">
     <link rel="stylesheet" href="font/google-font.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/themvipham.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
     {{-- iquery --}}
