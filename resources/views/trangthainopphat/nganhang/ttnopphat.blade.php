@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Canh sát</title>
+    <title>Trạng thái nộp phạt</title>
 
     <!-- boostrap -->
     <link rel="stylesheet" href="boostrap-5/css/bootstrap-grid.min.css">
@@ -113,7 +113,7 @@
 
         <div id="layoutSidenav_content">
             <main>
-                <div id="main-content">
+                <div id="main-content" style="width: 90%; margin: 0 auto;">
                     <div id="content-main">
                         <div class="heading">
                             <h2>Quản lý nộp phạt</h2>
