@@ -119,8 +119,7 @@
         <div id="layoutSidenav_content">
             <main>
                 @yield('themvipham')
-            </main>
-            <main>
+            
                 @yield('trangthainp')
             </main>
             <footer class="py-4 bg-light mt-auto">
