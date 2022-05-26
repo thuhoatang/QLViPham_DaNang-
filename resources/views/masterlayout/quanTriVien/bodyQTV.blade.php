@@ -344,8 +344,9 @@
                     
                 </table>
             </div>
+            <!-- vi phạm phổ biến -->
             <div class="thongke_vp_phobien" id="thongke_vp_phobien">
-                <h2>Thống kê theo tháng</h2>
+                <h2>Vi phạm phổ biến</h2>
                 <div class="month">
                       
                     <a class="nav-link collapsed text-dark" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts05" aria-expanded="false" aria-controls="collapseLayouts05">
