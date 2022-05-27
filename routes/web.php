@@ -40,3 +40,9 @@ Route::get('/headerQTV', function () {
 Route::get('/bodyQTV', function () {
     return view('masterlayout.quanTriVien.bodyQTV');
 })->name("bodyQTV");
+Route::get('/headerTimKiem', function () {
+    return view('masterlayout.timkiem.headerTimKiem');
+})->name("headerTimKiem");
+Route::get('/bodyTimKiem', function () {
+    return view('masterlayout.timkiem.bodyTimKiem');
+})->name("bodyTimKiem");

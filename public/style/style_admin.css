@@ -347,6 +347,82 @@
     margin-right: 3.5rem;
 }
 
+/* CSS tra cuu thong tin bS */
+#content_timkiem {
+    float: right;
+    width: 82%;
+}
+#content_timkiem h2 {
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+#content_timkiem .timkiem_bs{
+    border: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 2rem;
+    background: #fff;
+}
+#content_timkiem select{
+    background-color: #FEFFD9;
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#content_timkiem .timkiem_bs .input_button{
+    background-color: #FEFFD9;
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#content_timkiem .timkiem_bs .searchbox{
+    border: solid 0.7px; 
+    border-radius: 5px;
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+    
+}
+
+#content_timkiem .timkiem_bs .searchbox input{
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 100%;
+    
+}
+#content_timkiem .timkiem_bs .button_area{
+    background-color: #fff;
+    margin-left: 15px;
+    
+    border-radius: 5px;
+    width: 80%;
+    height: 100%;   
+    
+}
+#content_timkiem .timkiem_bs form{
+    display: flex;
+    border-radius: 5px;
+    border-color: #fff;
+    width: 90%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#content_timkiem .timkiem_bs i{
+    margin-left: 2px;
+}
 table,
 th,
 td {
