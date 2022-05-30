@@ -142,13 +142,63 @@
                         <option value="lienchieu">Liên Chiểu</option>
                         <option value="camle">Cẩm Lệ</option>
                     </select>
-                    <input class="input_button" type="submit" name="timkiem" value="Tìm kiếm"/>
+                    <input class="input_button" type="submit"  value="Tìm kiếm"/>
                 </div>
-                
+                 
             </form>
         </div>
-        
+        <h2>Kết quả tìm kiếm:</h2>
         <!-- result -->
+        <div class="ketqua_bienso" id="ketqua_bienso">
+            <table >
+                <tr>
+                    <td style="width:30%"><label><h5>Họ tên chủ xe:</h5></label></td>
+                    <td><p>Nguyễn Văn An</p></td>
+                    <td  rowspan="10" style=" width:35%"><img style="margin-bottom: 300px" src="image/bienso_avt.png"/></td>
+                </tr>
+                <tr>
+                    <td style="width:30%"><label><h5>Sinh ngày:</h5></label></td>
+                    <td><p>20/04/2000</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30%"><label><h5>Số CCCD/CMND:</h5></label></td>
+                    <td><p>9088 789 332</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30%"><label><h5>Địa chỉ thường trú:</h5></label></td>
+                    <td><p>K45/Đinh Tiên Hoàng/ Hải Châu/ Đà Nẵng</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30%"><label><h5>Số điện thoại:</h5></label></td>
+                    <td><p>0905589210</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30%"><label><h5>Nghề nghiệp:</h5></label></td>
+                    <td><p>Sinh viên</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30%"><label><h5>Mẫu xe:</h5></label></td>
+                    <td><p>Honda Air Blade 125</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30%"><label><h5>Biển số xe:</h5></label></td>
+                    <td><p>43D-437000</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30%"><label><h5>Màu xe:</h5></label></td>
+                    <td><p>Đỏ/Bạc/Đen</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30%"><label><h5>Ngày đăng ký:</h5></label></td>
+                    <td><p>23/09/2021</p></td>
+                </tr>
+                <tr>
+                    <td><button style="margin-left:15px; background-color: #D27C2C; color:white; border:#fff; border-radius:7px;height:40px">Tải bản xuống</button></td>
+                    
+                </tr>
+            </table>
+            
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
 
@@ -156,4 +206,4 @@
      <script type="text/javascript" src="boostrap-5/js/bootstrap.bundle.js"></script>
      <script type="text/javascript" src="boostrap-5/js/bootstrap.bundle.min.jsx"></script>
 </body>
-</html>
+</html>     
