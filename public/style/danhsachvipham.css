@@ -1,0 +1,32 @@
+table, th, td, tr {
+    border: 1px solid #cccc;
+    text-align: center;
+    padding-top:5px; padding-bottom:5px
+}
+
+thead {
+    background-color: rgb(251, 226, 125);
+}
+
+#th_biensopt{
+    width: 200px;
+}
+
+#th_loaipt {
+    width: 200px;
+}
+
+#th_ngayvipham{
+    width: 230px;
+}
+
+.xemchitiet {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.xemchitiet:hover {
+    color: green
+};
+ 

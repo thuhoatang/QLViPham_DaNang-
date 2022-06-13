@@ -29,7 +29,9 @@ Route::get('/page/canhsat/themvipham_trang2', function () {
     return view('page.canhsat.themvipham_trang2');
 })->name("themvpTrang2");
 
-
+Route::get('/page/canhsat/danhsachvipham', function () {
+    return view('page.canhsat.danhsachvipham');
+})->name("danhsachvipham");
 
 
 Route::get('admin/trang-thai-nop-phat', function(){

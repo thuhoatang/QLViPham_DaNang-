@@ -68,6 +68,7 @@
                                 <a class="nav-link text-dark" href = '{{ route('themvpTrang1')}}'>Thêm vi phạm</a>
                                 <a class="nav-link text-dark" href="layout-sidenav-light.html">Sửa vi phạm</a>
                                 <a class="nav-link text-dark" href="layout-sidenav-light.html">Xóa vi phạm</a>
+                                <a class="nav-link text-dark" href='{{ route('danhsachvipham')}}'>Danh sách vi phạm</a>
 
                             </nav>
                         </div>
@@ -121,6 +122,7 @@
             <main>
                 @yield('themvipham')
                 @yield('themvipham_trang2')
+                @yield('danhsachvipham')
             
                 @yield('trangthainp')
             </main>
