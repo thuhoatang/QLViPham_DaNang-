@@ -23,7 +23,15 @@ Route::get('admin/chi-tiet-vi-pham', function(){
 
 Route::get('/page/canhsat/themvipham', function () {
     return view('page.canhsat.themvipham');
-});
+})->name("themvpTrang1");
+
+Route::get('/page/canhsat/themvipham_trang2', function () {
+    return view('page.canhsat.themvipham_trang2');
+})->name("themvpTrang2");
+
+
+
+
 Route::get('admin/trang-thai-nop-phat', function(){
     return view('trangthainopphat.nganhang.ttnopphat');
 });

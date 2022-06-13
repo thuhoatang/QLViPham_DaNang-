@@ -65,7 +65,7 @@
                         </a>
                         <div class="collapse" id="collapseLayouts01" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link text-dark" href="layout-static.html">Thêm vi phạm</a>
+                                <a class="nav-link text-dark" href = '{{ route('themvpTrang1')}}'>Thêm vi phạm</a>
                                 <a class="nav-link text-dark" href="layout-sidenav-light.html">Sửa vi phạm</a>
                                 <a class="nav-link text-dark" href="layout-sidenav-light.html">Xóa vi phạm</a>
 
@@ -120,6 +120,7 @@
         <div id="layoutSidenav_content">
             <main>
                 @yield('themvipham')
+                @yield('themvipham_trang2')
             
                 @yield('trangthainp')
             </main>
@@ -143,6 +144,8 @@
 
      
      <script type="text/javascript" src="boostrap-5/js/bootstrap.bundle.js"></script>
-     <script type="text/javascript" src="boostrap-5/js/bootstrap.bundle.min.jsx"></script>
+     <script type="text/javascript" src="boostrap-5/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
 </body>
 </html>
