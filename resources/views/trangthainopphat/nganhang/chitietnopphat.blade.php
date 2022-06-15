@@ -97,9 +97,9 @@
                         </div>
                         <!-- Trang thai nop phat -->
                         <div class="sb-sidenav-menu-heading">Trạng thái</div>
-                        <a class="nav-link collapsed text-dark" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts03" aria-expanded="false" aria-controls="collapseLayouts03">
+                        <a class="nav-link collapsed text-dark" href="" data-bs-toggle="collapse" data-bs-target="#collapseLayouts03" aria-expanded="false" aria-controls="collapseLayouts03">
                             <div class="sb-nav-link-icon"><i class="bi bi-pie-chart-fill"></i></div>
-                            Trạng thái nộp phạt
+                            Quản lý nộp phạt
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                     </div>

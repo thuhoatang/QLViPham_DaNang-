@@ -107,6 +107,7 @@
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         
+                        
                     </div>
                 </div>
                 
@@ -119,9 +120,6 @@
         <div id="layoutSidenav_content">
             <main>
                 @yield('themvipham')
-            </main>
-            <main>
-                @yield('trangthainp')
             </main>
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
