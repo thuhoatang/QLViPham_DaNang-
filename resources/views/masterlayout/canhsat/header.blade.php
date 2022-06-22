@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Canh sát</title>
+    <title>Quản lý vi phạm</title>
 
     <!-- boostrap -->
     <link rel="stylesheet" href="boostrap-5/css/bootstrap-grid.min.css">
@@ -65,11 +65,22 @@
                         </a>
                         <div class="collapse" id="collapseLayouts01" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
+
+                                {{-- cảnh sát --}}
+                                @if (Illuminate\Support\Facades\Auth::user()->id_quyencanbo == 2)
                                 <a class="nav-link text-dark" href = '{{ route('themvpTrang1')}}'>Thêm vi phạm</a>
                                 <a class="nav-link text-dark" href="layout-sidenav-light.html">Sửa vi phạm</a>
                                 <a class="nav-link text-dark" href="layout-sidenav-light.html">Xóa vi phạm</a>
                                 <a class="nav-link text-dark" href='{{ route('danhsachvipham')}}'>Danh sách vi phạm</a>
 
+                                @else
+
+                                <a class="nav-link text-dark" href='{{ route('danhsachvipham')}}'>Vi phạm gởi đến</a>
+                                <a class="nav-link text-dark" href='{{ route('danhsachvipham')}}'>Vi phạm đã duyệt</a>
+
+
+                                @endif
+                            
                             </nav>
                         </div>
                         <a class="nav-link collapse text-dark" href="#" data-bs-toggle="collapse" >
@@ -85,8 +96,11 @@
                             Tra cứu xe
                             <div class="sb-sidenav-collapse-arrow"><i class=""></i></div>
                         </a>
-                        
-                        <!-- menu 03 -->
+
+                        @if (Illuminate\Support\Facades\Auth::user()->id_quyencanbo == 2)
+                           
+                        @else
+                             <!-- menu 03 -->
                         <div class="sb-sidenav-menu-heading">Thống kê</div>
                         <a class="nav-link collapsed text-dark" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts03" aria-expanded="false" aria-controls="collapseLayouts03">
                             <div class="sb-nav-link-icon"><i class="bi bi-pie-chart-fill"></i></div>
@@ -108,6 +122,9 @@
                             Trạng thái nộp phạt
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
+                        @endif
+                        
+                        
                         
                     </div>
                 </div>
@@ -125,6 +142,9 @@
                 @yield('danhsachvipham')
             
                 @yield('trangthainp')
+                @yield('chitietvipham')
+                @yield('trangGioiThieu')
+
             </main>
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">

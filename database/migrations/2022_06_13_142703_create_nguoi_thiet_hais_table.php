@@ -17,13 +17,13 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
 
-            $table->string("tenNguoiThietHai");
-            $table->string("ghiChu");
+            $table->string("tenNguoiThietHai")->nullable();
+            $table->string("ghiChu")->nullable();
 
 
-            $table->unsignedBigInteger("id_thongtincanhan");
+            $table->string("soCCCD", 15);
 
-            $table->foreign('id_thongtincanhan')->references('id')->on('thong_tin_ca_nhans');
+            $table->foreign('soCCCD')->references('soCCCD')->on('thong_tin_ca_nhans');
 
             $table->unsignedBigInteger("id_vipham");
 

@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class LuatGiaoThong extends Model
 {
     use HasFactory;
+    
 }

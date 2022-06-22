@@ -9,11 +9,11 @@ thead {
 }
 
 #th_biensopt{
-    width: 200px;
+    width: 100px;
 }
 
 #th_loaipt {
-    width: 200px;
+    width: 150px;
 }
 
 #th_ngayvipham{
@@ -29,4 +29,40 @@ thead {
 .xemchitiet:hover {
     color: green
 };
+
+
+#th_biensopt{
+    width: 200px;
+}
+
+#th_thoigian {
+    width: 200px;
+}
+
+#th_diadiem{
+    width: 150px;
+}
+
+#th_trangthai{
+    width: 100px;
+}
+
+.xemchitiet {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.xemchitiet:hover {
+    color: green
+};
+
+#input {
+    
+}
+
+.trangthai_duyet {
+    margin: 0 auto;
+}
+ 
  

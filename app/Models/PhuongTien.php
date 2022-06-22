@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class PhuongTien extends Model
 {
     use HasFactory;
+    public function loaiPhuongTien()
+    {
+        return $this->belongsTo(LoaiPhuongTien::class, "id_maLoai", "id");
+    }
 }
+

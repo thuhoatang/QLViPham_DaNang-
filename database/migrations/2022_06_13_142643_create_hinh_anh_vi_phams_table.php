@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->unsignedBigInteger("id_vipham");
-
+            $table->string("src_hinh");
             $table->foreign('id_vipham')->references('id')->on('vi_phams');
         });
     }

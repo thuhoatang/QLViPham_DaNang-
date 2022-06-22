@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class DiaChiChiTiet extends Model
 {
     use HasFactory;
+    public function xaPhuong()
+    {
+        return $this->belongsTo(PhuongXa::class, "id_phuongXa", "id");
+    }
 }

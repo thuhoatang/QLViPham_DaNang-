@@ -18,7 +18,7 @@ return new class extends Migration
             $table->timestamps();
             $table->string("tenLuatViPham");
             $table->bigInteger("tienPhat");
-            $table->string("noiDungLuat");
+            $table->string("noiDungLuat")->nullable();
 
         });
     }
