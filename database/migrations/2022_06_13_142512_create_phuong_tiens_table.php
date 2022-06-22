@@ -14,20 +14,19 @@ return new class extends Migration
     public function up()
     {
         Schema::create('phuong_tiens', function (Blueprint $table) {
-            $table->id();
+            // $table->id();
             $table->timestamps();
-            $table->string("bienSoXe");
+            $table->string("bienSoXe", 15);
             $table->string("tenPhuongTien");
             $table->string("mauXe");
             $table->string("nhanHieu");
             $table->date("ngayDangKi");
-            $table->unsignedBigInteger("id_thongtincanhan");
-            $table->foreign('id_thongtincanhan')->references('id')->on('thong_tin_ca_nhans');
+            $table->string("soCCCD", 15);
+            $table->foreign('soCCCD')->references('soCCCD')->on('thong_tin_ca_nhans');
             $table->unsignedBigInteger("id_maLoai");
             $table->foreign('id_maLoai')->references('id')->on('loai_phuong_tiens');
-
-
-
+            $table->primary("bienSoXe");
+        
         });
     }
 

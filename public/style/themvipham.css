@@ -81,3 +81,17 @@ textarea {
 .btn_luu{
     background-color: #C68601;
 }
+
+#combobox_quan {
+    height: 50px;
+    width: 250px;
+}
+
+#xaPhuong {
+    height: 50px;
+    width: 250px;
+}
+#diachichitiet{
+    height: 50px;
+    width: 400px;
+}

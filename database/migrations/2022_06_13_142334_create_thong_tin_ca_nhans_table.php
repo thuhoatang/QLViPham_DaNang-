@@ -14,9 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('thong_tin_ca_nhans', function (Blueprint $table) {
-            $table->id();
+            //$table->id();
             $table->timestamps();
-            $table->string('soCCCD');
+            $table->string('soCCCD', 15);
             $table->string('hoTen');
             $table->unsignedBigInteger('id_phuongXa');
             $table->string('ngheNghiep');
@@ -24,7 +24,7 @@ return new class extends Migration
             $table->date('ngaySinh');
 
             $table->foreign('id_phuongXa')->references('id')->on('phuong_xas');
-
+            $table->primary('soCCCD');
 
         });
     }
